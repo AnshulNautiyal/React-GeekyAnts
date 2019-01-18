@@ -10,15 +10,15 @@
 
 ## 🚀 Quick start
 
-1.  **Technologies Used**
+1.  **Technologies Use**
 
     HTML, CSS, BULMA, React, Gatsby
 
 1.  **How To Use**
 
-    **Prerequisite**
+    
 
-    1. System Should have ```Node``` installed.
+    1.  **Prerequisite:** System Should have ```Node``` installed.
 
         ```
         Node version I am using:
