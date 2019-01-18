@@ -1,0 +1,76 @@
+/* Universal CSS Setting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    green: #67b26f
+    blue: #4ca2cd
+    mid:#5aaa9d
+*/
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+    padding: 100px;
+    color: #444;
+    background: linear-gradient(to bottom right, #67b26f,#4ca2cd);
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* TeamList component */
+.customTeamListContainer {
+    height: 100%;
+    /* background: red; */
+    overflow: scroll;
+    
+}
+.customTeamListContainer > .menu-list {
+    margin-left: 0 !important;
+}
+.cusotomList {
+    background-color:white;
+}
+
+.customBaseButton {
+    padding-left: 39rem !important;
+    padding-top: 2rem !important;
+}
+@media only screen and (max-width: 1000px) {
+    .customBaseButton {
+        padding-left: 34rem !important;
+    }
+    
+}
+@media only screen and (max-width: 900px) {
+    .customBaseButton {
+        padding-left: 24rem !important;
+    }
+    
+}
+@media only screen and (max-width: 800px) {
+    .customBaseButton {
+        padding-left: 19rem !important;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .customBaseButton {
+        padding-left: 14rem !important;
+    }
+    
+}
+@media only screen and (max-width: 400px) {
+    .customBaseButton {
+        padding-left: 9rem !important;
+    }
+    .customListHeading {
+            font-size: .99rem !important;
+    }
+   
+}

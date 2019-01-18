@@ -1,0 +1,48 @@
+.baseContainer {
+    width: 50rem;
+    height: 30rem;
+    border-radius: 6px;
+    box-shadow: 0 30px 80px 30px rgba(0,0,0,.2);
+    overflow: hidden;
+    /* display: flex; */
+    background: white;
+    padding: 2rem;
+}
+@media only screen and (max-width: 1000px) {
+    .baseContainer {
+            width: 45rem;
+            height: 25rem;
+    }
+    
+}
+@media only screen and (max-width: 900px) {
+    .baseContainer {
+            width: 35rem;
+            height: 25rem;
+    }
+    
+}
+@media only screen and (max-width: 800px) {
+    .baseContainer {
+            width: 30rem;
+            height: 25rem;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .baseContainer {
+            width: 25rem;
+            height: 25rem;
+    }
+    
+}
+@media only screen and (max-width: 400px) {
+    .baseContainer {
+            width: 20rem;
+            height: 30rem;
+    }
+   
+}
+
+
+
