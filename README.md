@@ -24,7 +24,6 @@
         Node version I am using:
         Node : 11.3.0
         npm : 6.5.0
-
         ```
     
     2. Download/Clone the repository.
